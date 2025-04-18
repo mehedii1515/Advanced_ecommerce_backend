@@ -32,8 +32,8 @@ SECRET_KEY = 'django-insecure-b*tuoe%^o+=^35$0fufrm=oamh^(o0tabn39(7ni12(i-oup+4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["haatkhola-multivendor-ecommerce-api.up.railway.app", "127.0.0.1"]
-CSRF_TRUSTED_ORIGINS = ['https://haatkhola-multivendor-ecommerce-api.up.railway.app', 'https://127.0.0.1']
+ALLOWED_HOSTS = ["https://advanced-ecommerce-backend.onrender.com/", "127.0.0.1"]
+CSRF_TRUSTED_ORIGINS = ['https://advanced-ecommerce-backend.onrender.com/', 'https://127.0.0.1']
 SECURE_CROSS_ORIGIN_OPENER_POLICY = 'same-origin-allow-popups'
 
 
