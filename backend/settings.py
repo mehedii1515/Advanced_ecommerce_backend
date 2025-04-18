@@ -14,7 +14,7 @@ from pathlib import Path
 from datetime import timedelta
 from environs import Env
 import os
-
+import dj_database_url
 
 env = Env()
 env.read_env()
